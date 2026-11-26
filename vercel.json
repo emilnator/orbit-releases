@@ -1,0 +1,30 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/appcast.xml",
+      "destination": "https://raw.githubusercontent.com/emilnator/orbit-releases/main/appcast.xml",
+      "permanent": false
+    },
+    {
+      "source": "/download",
+      "destination": "https://github.com/emilnator/orbit-releases/releases/latest/download/Orbit.Browser.dmg",
+      "permanent": false
+    },
+    {
+      "source": "/Orbit(?:%20| )Browser(?:%20| ):version(\\d+\\.\\d+\\.\\d+).:kind(zip|dmg)",
+      "destination": "https://github.com/emilnator/orbit-releases/releases/download/v:version/Orbit.Browser.:version.:kind",
+      "permanent": false
+    },
+    {
+      "source": "/Orbit(?:%20| )Browser:version(\\d+\\.\\d+\\.\\d+)-:from([^/]+).delta",
+      "destination": "https://github.com/emilnator/orbit-releases/releases/download/v:version/Orbit.Browser:version-:from.delta",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "destination": "https://browsewithorbit.com",
+      "permanent": false
+    }
+  ]
+}
