@@ -1,8 +1,22 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Orbit Browser</title>
+        <item>
+            <title>0.1.1</title>
+            <pubDate>Thu, 26 Nov 2026 16:25:37 +0100</pubDate>
+            <sparkle:version>0.1.1</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://updates.browsewithorbit.com/Orbit%20Browser%200.1.1.zip" length="158313762" type="application/octet-stream" sparkle:edSignature="Nb58KlFG9p64dhzN2pTvblInxI5B7pdZGlufTyFV0radkXEUnrI8nZ2Y0Ls3YG3uyndjMjGSq/OQu/gyDGbPDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://updates.browsewithorbit.com/Orbit%20Browser0.1.1-0.1.0.delta" sparkle:deltaFrom="0.1.0" length="1191378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DBDgoEWP4HlT7XeOOevaEgr85cbFVzQ+AAol04rVhprx52mHQSP32gSSS3etfrAwW/57uD7nm1c6QTTELJRGCQ=="/>
+            </sparkle:deltas>
+        </item>
         <item>
             <title>0.1.0</title>
             <pubDate>Thu, 26 Nov 2026 11:41:50 +0100</pubDate>
@@ -10,10 +24,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://updates.browsewithorbit.com/Orbit%20Browser%200.1.0.zip" length="158295567" type="application/octet-stream" sparkle:edSignature="q2EsSc54eiJ1TqoCkuPpB+uVxbRVZ2UIPTrRS4V2ZAdOyLZulpsvxy+i9Ad5DVKfuxkpqBXpg326F/MvsBU2Aw=="></enclosure>
+            <enclosure url="https://updates.browsewithorbit.com/Orbit%20Browser%200.1.0.zip" length="158295567" type="application/octet-stream" sparkle:edSignature="q2EsSc54eiJ1TqoCkuPpB+uVxbRVZ2UIPTrRS4V2ZAdOyLZulpsvxy+i9Ad5DVKfuxkpqBXpg326F/MvsBU2Aw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: gLFUNLpTYU8tfnlmUjuoMDJP3eGbMNIHUu2lS8Ws/SQ8s/42qtHekOfl7aJTyCTADdStJohCBxQKaRe3xZ8XCg==
-length: 1114
+</rss>
+<!-- sparkle-signatures:
+edSignature: VAB+hQd4MgD73ZpZS7R9LrsokcNIHMOUFP4f+cP3tFiSJ7gqJthB6+/gA5DpWzsd4S1qQ1KavIa0Z4igeQTNAQ==
+length: 2227
 -->
