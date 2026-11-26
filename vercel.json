@@ -12,12 +12,32 @@
       "permanent": false
     },
     {
-      "source": "/Orbit(?:%20| )Browser(?:%20| ):version(\\d+\\.\\d+\\.\\d+).:kind(zip|dmg)",
-      "destination": "https://github.com/emilnator/orbit-releases/releases/download/v:version/Orbit.Browser.:version.:kind",
+      "source": "/Orbit%20Browser%20:version(\\d+\\.\\d+\\.\\d+).zip",
+      "destination": "https://github.com/emilnator/orbit-releases/releases/download/v:version/Orbit.Browser.:version.zip",
       "permanent": false
     },
     {
-      "source": "/Orbit(?:%20| )Browser:version(\\d+\\.\\d+\\.\\d+)-:from([^/]+).delta",
+      "source": "/Orbit%20Browser%20:version(\\d+\\.\\d+\\.\\d+).dmg",
+      "destination": "https://github.com/emilnator/orbit-releases/releases/download/v:version/Orbit.Browser.:version.dmg",
+      "permanent": false
+    },
+    {
+      "source": "/Orbit%20Browser:version(\\d+\\.\\d+\\.\\d+)-:from(\\d+\\.\\d+\\.\\d+).delta",
+      "destination": "https://github.com/emilnator/orbit-releases/releases/download/v:version/Orbit.Browser:version-:from.delta",
+      "permanent": false
+    },
+    {
+      "source": "/Orbit Browser :version(\\d+\\.\\d+\\.\\d+).zip",
+      "destination": "https://github.com/emilnator/orbit-releases/releases/download/v:version/Orbit.Browser.:version.zip",
+      "permanent": false
+    },
+    {
+      "source": "/Orbit Browser :version(\\d+\\.\\d+\\.\\d+).dmg",
+      "destination": "https://github.com/emilnator/orbit-releases/releases/download/v:version/Orbit.Browser.:version.dmg",
+      "permanent": false
+    },
+    {
+      "source": "/Orbit Browser:version(\\d+\\.\\d+\\.\\d+)-:from(\\d+\\.\\d+\\.\\d+).delta",
       "destination": "https://github.com/emilnator/orbit-releases/releases/download/v:version/Orbit.Browser:version-:from.delta",
       "permanent": false
     },
